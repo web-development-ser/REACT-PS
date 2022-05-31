@@ -10,6 +10,10 @@ import ClassEsts from './components/ClassEsts';
 
 import IdSetName from './components/IdSetName';
 
+import ThisProps from './components/ThisProps';
+
+
+
 
 function App() {
   return (
@@ -23,6 +27,8 @@ function App() {
       <ClassEsts name="Sergio"/>
 
       <IdSetName />
+
+      <ThisProps />
     </div>
   );
 }
