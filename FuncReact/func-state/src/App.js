@@ -8,6 +8,7 @@ import Viaje from './components/Viaje';
 import ReactBasics from './components/ReactBasics';
 import ReactIntermediate from './components/ReactIntermediate';
 
+import InputEnvio from './components/InputEnvio';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <ReactBasics name="React Basics"/>
       <ReactIntermediate name="React Intermediate"/>
 
-
+      <InputEnvio />
 
     </div>
   );
